@@ -6,21 +6,25 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+
 html {
   font-size: 62.5%;
   /* 1rem = 10px */
   overflow-x: hidden;
 }
+
 body {
   overflow-x: hidden;
   background-color: #e4d8cfd7;
   scroll-behavior: smooth;
 }
+
 /* .linear-gradient{
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(to bottom, #fff 95%, #c3f5ff 20%);
 } */
+
 .header {
   padding: 0 6.8rem;
   height: 9rem;
@@ -28,6 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
 .header .logo h1 {
   text-decoration: none;
   color: #15171a;
@@ -39,9 +44,11 @@ body {
   color: #ff6d0f;
   font-size: 5.5rem;
 }
+
 /* .header .logo {
   height: 3rem;
 } */
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -51,13 +58,16 @@ body {
   align-items: center;
   text-align: center;
 }
+
 .navbar a {
   position: relative;
   width: 20%;
 }
+
 .navbar a:first-child {
   color: #ff6d0f;
 }
+
 .navbar a::before {
   content: "";
   position: absolute;
@@ -68,9 +78,11 @@ body {
   border-bottom: 2px solid #ff6d0f;
   transition: all 0.4s linear;
 }
+
 nav a:hover::before {
   width: 100%;
 }
+
 .navbar-link:link,
 .navbar-link:visited {
   display: inline-block;
@@ -81,29 +93,36 @@ nav a:hover::before {
   color: #15171a;
   transition: all 0.3s;
 }
+
 hr {
   opacity: 0.5;
 }
+
 /* .navbar-link:hover,
 .navbar-link:active {
     color: #ff6d0f;
 } */
+
 .mobile-navbar-btn {
   display: none;
   background: transparent;
   cursor: pointer;
 }
+
 .mobile-nav-icon {
   width: 4rem;
   height: 4rem;
   color: #212529;
 }
+
 .mobile-nav-icon[name="close-outline"] {
   display: none;
 }
+
 /* ===========================================
 Hero and Service Section Start
 ======================================= */
+
 #hero {
   height: 85vh;
   display: flex;
@@ -112,6 +131,7 @@ Hero and Service Section Start
   margin: auto;
   position: relative;
 }
+
 #hero .leftside {
   width: 50%;
   /* background: aquamarine; */
@@ -120,6 +140,7 @@ Hero and Service Section Start
   left: 0;
   top: 40%;
 }
+
 .leftside h1 {
   font-size: 60px;
   font-weight: 900;
@@ -132,6 +153,7 @@ Hero and Service Section Start
 .leftside h1 span {
   font-size: 40px;
 }
+
 #hero .leftside h3 {
   font-size: 14px;
   text-transform: uppercase;
@@ -139,6 +161,7 @@ Hero and Service Section Start
   line-height: 30px;
   /* gap: 10px; */
 }
+
 .leftside h3 img {
   width: 15px;
   height: auto;
@@ -148,6 +171,7 @@ Hero and Service Section Start
   box-shadow: none;
   margin-right: 3px;
 }
+
 .leftside .btn1,
 .btn2 {
   text-decoration: none;
@@ -162,6 +186,7 @@ Hero and Service Section Start
   margin-right: 30px;
   margin-top: 20px;
 }
+
 #hero .leftside .btn1 {
   color: #fff;
   /* background-image: linear-gradient(to right,#4458dc 0%,#854fee 100%),radial-gradient(circle at left,#4458dc,#854fee); */
@@ -169,11 +194,13 @@ Hero and Service Section Start
   border: double 1px transparent;
   box-shadow: 0 10px 30px rgba(118, 85, 225, 0.3);
 }
+
 .leftside .btn2 {
   border: 2px solid #ff751b;
   color: #222;
   box-shadow: none;
 }
+
 .leftside .btn2:hover {
   color: #fff;
   background-color: #ff6d0f;
@@ -181,12 +208,14 @@ Hero and Service Section Start
   transition: all 0.5s ease-in-out;
   border: none;
 }
+
 #hero .leftside .btn1:hover {
   border: 2px solid #ff751b;
   color: #222;
   background-color: #fff;
   transition: all 0.5s ease-in-out;
 }
+
 /* Corrected selector */
 #hero #rightside {
   display: flex;
@@ -206,14 +235,17 @@ Hero and Service Section Start
   right: 0;
   bottom: 10%;
 }
+
 /* Corrected CSS for the right side image */
 #hero #rightside img {
   width: 356px;
   height: auto;
 }
+
 /* ===========================================
 About me ka Codes 
 ======================================= */
+
 #about-me {
   display: flex;
   justify-content: center;
@@ -221,6 +253,7 @@ About me ka Codes
   width: 100%;
   height: 80vh;
 }
+
 #main-about {
   display: flex;
   justify-content: space-between;
@@ -228,18 +261,22 @@ About me ka Codes
   width: 100%;
   /* height: 100%; */
 }
+
 .img-box {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .img-box img {
   width: 50%;
 }
+
 #leftsidediv {
   width: 100%;
   height: 90%;
 }
+
 #rightsidediv {
   width: 100%;
   height: 90%;
@@ -247,15 +284,18 @@ About me ka Codes
   justify-content: center;
   align-items: flex-start;
 }
+
 .centerkarnekeliye {
   margin-top: 6rem;
 }
+
 .centerkarnekeliye h1 {
   font-size: 35px;
   font-weight: 900;
   color: #ff751b;
   font-family: "General Sans";
 }
+
 .centerkarnekeliye h1 span {
   color: #161616f1;
 }
@@ -268,6 +308,7 @@ About me ka Codes
   letter-spacing: 1px;
   color: #000;
 }
+
 .naamwalasection {
   display: flex;
   align-items: center;
@@ -280,6 +321,7 @@ About me ka Codes
   font-size: 12px;
   color: #212529;
 }
+
 .leftsidelist h3:hover {
   cursor: pointer;
   color: #ff6d0f;
@@ -288,15 +330,18 @@ About me ka Codes
   cursor: pointer;
   color: #ff6d0f;
 }
+
 /* ===========================================
 skill section Codes 
 ======================================= */
+
 #skill-section {
   width: 100%;
   height: 60vh;
   /* background-color: #f3a06d; */
   padding: 5em 0;
 }
+
 .cantainer {
   width: 70%;
   padding-right: 15px;
@@ -304,6 +349,7 @@ skill section Codes
   margin-right: auto;
   margin-left: auto;
 }
+
 #skill-section h2 {
   text-align: center;
   font-size: 4rem;
@@ -328,6 +374,7 @@ skill section Codes
   flex-wrap: wrap;
   padding: 0 4em;
 }
+
 .skill-pic {
   width: 7rem;
   height: 100%;
@@ -335,31 +382,38 @@ skill section Codes
   float: left;
   padding: 0 4em;
 }
+
 .skill-pic img {
   width: 8rem;
   height: 7rem;
   vertical-align: middle;
 }
+
 /* ===========================================
 footer Codes 
 ======================================= */
+
 #footer-main {
   width: 100%;
   height: 26vh;
   padding: 1rem;
+
 }
+
 #footer {
   padding: 3rem;
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
 .footerdiv ul {
   gap: 6rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 .footerdiv li {
   border-right: 1px solid;
   padding-right: 6rem;
@@ -372,6 +426,7 @@ footer Codes
  border: none;
  padding-right: 0;
 }
+
 .footer-icon{
   display: flex;
     justify-content: center;
@@ -385,6 +440,7 @@ footer Codes
     margin-right: 2rem;
     text-decoration: none;
 }
+
 .circle i{
   font-size: 18px;
   color: #fff;
@@ -394,11 +450,14 @@ footer Codes
   color: #212121;
   transition: all .2s ease-in-out;
 }
+
 .circle:hover{
   background-color: #ff751b;
   transition: all .3s ease-in;
   color: #212121;
 }
+
+
 .map-cantainer{
   width: 100%;
   height: 50vh;
@@ -407,9 +466,11 @@ footer Codes
   width: 100%;
   height: 100%;
 }
+
 /* ===========================================
 Responsive Codes 
 ======================================= */
+
 /* 980px  */
 @media (max-width: 62em) {
   .mobile-navbar-btn {
@@ -418,12 +479,15 @@ Responsive Codes
     border: 3px solid #212529;
     color: #212529;
   }
+
   .header {
     position: relative;
   }
+
   .header .logo {
     width: 30%;
   }
+
   /* .navbar{
     position: absolute;
     top:110%; right:-110%;
@@ -432,10 +496,12 @@ Responsive Codes
     border-radius: .5rem;
     background: #fff;
   } */
+
   /* .active .navbar {
     right: 2rem;
     transition: 0.4s linear;
   } */
+
   .navbar {
     /* display: none; */
     width: 100%;
@@ -444,44 +510,49 @@ Responsive Codes
     position: absolute;
     top: 0;
     left: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     /* to get the tranisition  */
     transform: translateX(100%);
     transition: all 0.5s linear;
+
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
   }
+
   .navbar-list {
     flex-direction: column;
     align-items: center;
   }
+
   .active .navbar {
     transform: translateX(0);
     opacity: 1;
+
     visibility: visible;
     pointer-events: auto;
   }
+
   .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
     display: block;
   }
+
   .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
     display: none;
   }
 }
+
 /* Below 560px  */
 @media (max-width: 35em) {
   .header {
     padding: 0 2.4rem;
   }
+
   .header .logo {
     width: 60%;
   }
 }
-
-            .skills {
-                grid-template-columns: 1fr;
-            }
-        }
